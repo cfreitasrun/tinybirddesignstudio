@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+body {
+  color: #b5a99c;
+  line-height: 1.5ms;
+  font-family: arial;
+  font-size: 14px;
+}
+
+h2 { font-size: 1.7em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+h4 { font-size: 32px;}
+p { margin: 0 0 .75em 0; }
+a { color: #727f65; } /* -- links in promos -- */
+a:hover { color: #806c55; }
+
+
+
+/* --
+a.cta {
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  text-decoration: none;
+  margin: .5em 0 0 0;
+  padding: 0px 12px 0px 0px;
+  background: url(../images/cta_arrow.png) no-repeat right 0px; /*sprite*/
+}
+/*
+a.cta:hover { background-position: right -50px; } /*sprite*/
+/*
+.promo h3 { font-size: 1.1ems; margin: 0; }
+.promo p { line-height: 1.2em; font-size: .9em; margin-bottom: .5em; }
+
+.promo { background-repeat: no-repeat; }
+.promo.one { background-image: url(../images/promo_1.jpg); }
+.promo.two { background-image: url(../images/promo_2.jpg); }
+.promo.three { background-image: url(../images/promo_3.jpg); }
+--*/
+
+ nav a:hover { color: #727f65; }
+
+.clear-fix { clear: both; line-height: 1px; }
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
+
+
+html,
+body {
+  font-family:'Noto Sans', serif;
+  background-color: #4e181a;
+}

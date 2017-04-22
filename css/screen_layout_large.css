@@ -1,0 +1,97 @@
+/* Layout (global rules for all sizes) */
+
+body { margin: 0; padding: 0; }
+
+
+
+header .logo {
+  margin: 65px 840px;
+  position: absolute;
+
+}
+
+h1 {
+  /* -- font-family: 'Source Sans Pro', sans-serif; -- */
+  font-family: 'Indie Flower', cursive;
+  font-size: 48px;
+  font-weight: bold;
+  color: #b5a99c;
+  margin: 0em 0em 0.5em 0em;
+  padding: 150px 0px 0px 1000px;
+ }
+
+nav {
+  font-family: 'Indie Flower', cursive;
+  font-size: 32px;
+  font-weight: normal;
+  width: 100%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 788px;
+}
+
+nav a {
+  color: #b5a99c;
+  margin: 12px 10px 10px 20px; /*-- space around nav links --*/
+  text-decoration: none;
+}
+
+/* Layout Large Screens (default for older browsers) */
+
+.page {
+  max-width: 2000px;
+  max-height: 750px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  background-color: #4e181a;
+}
+
+header {
+  height: 777px;
+  background: url(../images/largescreenhero.png) no-repeat center 0px;
+}
+
+header a.logo {
+  background-image: url(../images/tinybirdlogo.png);
+}
+
+.img {
+  height: 80px;
+  position: absolute;
+  top: 760px;
+  background-image: url(../images/gradient.png);
+
+}
+
+article {
+  display: none;
+}
+
+/*
+article { padding: 60px 20px 10px 20px; } /*-- 60 because we need room for the menu --*/
+
+.promo_container { padding: 0px 0px 15px 20px; }
+.promo_container .promo {
+  width: 33%;
+  float: left;
+  background-position: 0px 3px;
+}
+.promo_container .promo .content { padding: 0px 30px 0px 70px; }
+
+
+
+
+
+@media screen and (max-width: 2000px){}
+
+  footer {
+      font-size: 20px;
+      color: black;
+      background-color: #727f65;
+      height: 100px;
+      margin: 80px 0px 0px 0px;
+      padding: 45px 0px 0px 0px;
+      text-align: center
+    }

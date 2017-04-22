@@ -1,0 +1,71 @@
+@@charset "UTF-8";
+
+/* Layout Medium Screens */
+
+.page {
+  max-width: 768px;
+  max-height: 1024px;
+  margin: 0px auto 0px auto;
+  position: absolute;
+  background-color: #4e181a;
+}
+
+header {
+  height: 334px;
+  width: 1018px;
+  background-image: url(../images/mediumscreenhero.png);
+}
+
+header.logo {
+   background-image: url(../images/small_icon.png) no-repeat;
+  }
+
+
+h1 {
+  /* -- font-family: 'Source Sans Pro', sans-serif; -- */
+  font-family: 'Indie Flower', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: #b5a99c;
+  margin: 0em 0em 0.5em 0em;
+  padding: 30px 0px 0px 400px;
+ }
+
+.img {
+  visibility: hidden;
+}
+
+nav {
+  top: 350px;
+  float: center;
+}
+
+nav a {
+  color: #b5a99c;
+  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 50px;
+  padding: 0px 0px 0px 0px;
+}
+nav a:hover { color: #727f65; }
+
+.clear-fix { clear: both; line-height: 1px; }
+
+.promo_container { padding: 0px 20px 15px 20px; }
+.promo_container .promo { background-position: 0px 0px; }
+.promo_container .promo .content { padding: 70px 30px 0px 0px; }
+
+body { background-image: none; }
+
+
+    footer {
+      font-size: .85em;
+      text-align: center;
+      color: #black;
+      background-color: #727f65;
+      height: 50px;
+      width: 100%;
+      margin: 665px auto;
+      padding: 5px 0px 0px 0px; }
