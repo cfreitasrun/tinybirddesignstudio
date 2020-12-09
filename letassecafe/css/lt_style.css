@@ -1,0 +1,246 @@
+/***** BASE STYLES *****/
+body{
+	font-family: 'Lato', sans-serif;
+
+}
+
+#about, #info, #contact {
+
+	height: 260px;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 450px;
+	float: left;
+}
+
+.third-width {
+	width: 300px;
+	float: left;
+	text-align: left;
+}
+
+.quarter-width {
+	display: inline-block;
+}
+
+.food_images {
+	margin: 0px 15px 0px 15px;
+}
+
+/****** HEADER ******/
+
+header {
+	height: 260px;
+	background-image: url("../images/coffeeheader.png");
+	background-size: cover;
+}
+
+header h1 {
+	padding: 25px 70px;
+}
+
+nav {
+	float: right;
+	padding: 120px 40px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	font-variant: normal;
+	font-size: 18px;
+	color: #caba96;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+header h2 {
+	width: 1000px;
+	clear: both;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 5px;
+	color: #9b9b9b;
+	margin: 0px auto;
+	text-align: center;
+}
+
+header h2 span {
+	color: #2b2b2b;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+	padding: 80px 0;
+}
+
+
+#about h2 {
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+	font-size: 36px;
+}
+
+#about p {
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	color: #7F7F7F;
+	line-height: 40px;
+	padding-right: 50px;
+}
+
+#info .full-width {
+	height: 400px;
+	margin: 30px auto;
+}
+
+#info h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: #2b2b2b;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#info p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: center;
+}
+
+a {
+	color: #532510;
+}
+
+.menu-button{
+	margin: 30px auto;
+}
+
+#menu-info .full-width-menu{
+	width: 1000px;
+	height: 1070px;
+	margin: 10px auto;
+	border: 4px double grey;
+}
+
+#menu-info h1{
+	text-align: center;
+	border-bottom: 1px solid grey;
+	margin: 20px auto 20px auto;
+	height: 55px;
+}
+
+#menu-info h2{
+	text-align: center;
+	margin: 20px auto 20px auto;
+	height: 55px;
+}
+
+#menu-info .half-width-menu{
+	float: left;
+	width: 40%;
+	height: 650px;
+	margin: auto 40px;
+	padding: 0px 5px 0px 5px;
+}
+
+
+#menu-bottom{
+	height: 300px;
+
+}
+
+.menu-bottom h2{
+	text-align: center;
+	margin: 0px auto 20px auto;
+	padding-top: 10px;
+	height: 150px;
+}
+
+.menu-bottom p{
+	font-size: 18px;
+	margin-top: -25px;
+	text-align: center;
+	clear: both;
+}
+
+#contact .full-width{
+text-align: center;
+width: 1000px;
+}
+
+#contact .half-width{
+	padding: 0px;
+	float: left;
+	width: 50%;
+}
+
+#contact .quarter-width{
+	width: 25%;
+	float: left;
+	text-align: left;
+}
+
+#contact h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+#contact #socialmedia-header {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+}
+
+#contact a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 28px;
+	width: 50%;
+}
+
+#contact ul{
+	list-style: none;
+	padding: 0 0px;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+
+#contact ul li a{
+	margin: 0px 10px;
+	width: 50%;
+
+}
+
+#map{
+	float: left;
+	width: 50%;
+}
+
+footer{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border-top: solid 2px;
+	clear: both;
+	margin: 0px auto;
+	padding: 0px auto;
+
+}
